@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="md-content">
+  <article class="md-content__inner md-typeset">
+    <h1>Página não encontrada</h1>
+    <p>Desculpe, a página que você está procurando não existe ou foi movida.</p>
+    <p>Por favor, verifique o URL ou retorne à <a href="{{ config.base_url | url }}">página inicial</a>.</p>
+  </article>
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+    {# Você pode adicionar botões de navegação aqui se quiser, como "Próximo" e "Anterior" #}
+</div>
+
+<hr/>
+
+<div role="contentinfo">
+    <p>
+        © 2025 SEEC.Net, mantido pela Unidade de Indicadores, Monitoramento e Controle de Prestação de Contas de Projetos Culturais (UIMP).
+        <br>
+        <a href="https://www.seec.net.br/termos-de-uso.html">Termos de Uso</a> | <a href="https://www.seec.net.br/politica-de-privacidade.html">Política de Privacidade</a>
+    </p>
+</div>
+{% endblock %}

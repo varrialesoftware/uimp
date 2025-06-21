@@ -1,0 +1,57 @@
+site_name: SEEC.Net
+site_url: https://www.seec.net.br # Opcional: URL do seu site, se tiver um
+site_description: Um repositório de minhas notas e pensamentos.
+
+theme:
+  name: mkdocs
+  color_mode: auto
+  user_color_mode_toggle: true
+  locale: pt_BR
+  custom_dir: overrides/ # Aponta para a sua pasta de customização
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - django
+
+nav:
+  - Início: index.md
+  - Introdução: introducao.md
+  - Getting Started: getting-started
+  - Tópicos:
+    - Tópico 1:
+      - Subtópico A: topico-1/subtopico-a.md
+      - Subtópico B: topico-1/subtopico-b.md
+    - Tópico 2: topico-2.md
+  # Adicione mais entradas conforme suas notas
+
+extra_css:
+  - css/extra.css
+
+markdown_extensions:
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.snippets
+  - pymdownx.superfences
+  # - callouts
+  - mkdocs-click
+
+plugins:
+  - search
+  - redirects:
+  - autorefs # Habilita o plugin Autorefs, que permite referências cruzadas automáticas entre documentos.
+  - literate-nav:
+      implicit_index: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_section_style: list
+            members_order: source
+            show_root_heading: true
+            show_source: false
+            show_signature_annotations: true
