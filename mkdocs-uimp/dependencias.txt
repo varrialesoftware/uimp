@@ -1,0 +1,6 @@
+pip install pymdown-extensions
+pip install mkdocs-click
+pip install mkdocs-redirects
+pip install mkdocs-autorefs
+pip install mkdocs-literate-nav
+pip install mkdocstrings[python]
