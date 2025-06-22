@@ -15,13 +15,13 @@ theme:
 
 nav:
   - Início: index.md
-  - Introdução: introducao.md
-  - Getting Started: getting-started
-  - Tópicos:
-    - Tópico 1:
-      - Subtópico A: topico-1/subtopico-a.md
-      - Subtópico B: topico-1/subtopico-b.md
-    - Tópico 2: topico-2.md
+  - Guia do usuário: guia-do-usuario.md
+  - Instâncias:
+    - FAU/Unicentro: https://unicentro.seec.net.br
+    - PUC/Hotmilk: https://puc.seec.net.br
+    - Sistema de Informações Gerenciais: https://sig.seec.net.br
+    - Wikis setoriais: wikis.md
+  - Contato: contatos.md
   # Adicione mais entradas conforme suas notas
 
 extra_css:
