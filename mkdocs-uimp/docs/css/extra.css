@@ -87,3 +87,13 @@ h5.doc-heading {
 .doc-contents {
     padding-left: 0;
 }
+
+
+
+
+/* Oculta os itens da lista de navegação "Anterior" e "Seguinte" no cabeçalho */
+/* Usamos 'rel="prev"' e 'rel="next"' para mirar especificamente nos links de navegação */
+.navbar-nav .nav-item > a[rel="prev"],
+.navbar-nav .nav-item > a[rel="next"] {
+    display: none !important;
+}
