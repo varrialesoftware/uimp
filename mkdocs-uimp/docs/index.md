@@ -30,7 +30,7 @@ configuration file. Start by reading the [introductory tutorial], then check the
             as well as the <a href="https://github.com/mkdocs/catalog#-theming">MkDocs Catalog</a>),
             or <a href="dev-guide/themes/">build your own</a>.
         </p>
-        <a href="user-guide/" class="btn btn-primary" role="button">Entrar</a>
+        <a href="https://unicentro.seec.net.br" class="btn btn-primary" role="button">Entrar</a>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ configuration file. Start by reading the [introductory tutorial], then check the
             href="user-guide/configuration/">configuration options</a> are
             available.
         </p>
-        <a href="user-guide/" class="btn btn-primary" role="button">Entrar</a>
+        <a href="https://hotmilk.seec.net.br" class="btn btn-primary" role="button">Entrar</a>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@ configuration file. Start by reading the [introductory tutorial], then check the
             as you're writing it. It will even auto-reload and refresh your
             browser whenever you save your changes.
         </p>
-        <a href="user-guide/" class="btn btn-primary" role="button">Entrar</a>
+        <a href="https://sig.seec.net.br" class="btn btn-primary" role="button">Entrar</a>
       </div>
     </div>
   </div>
@@ -76,7 +76,7 @@ configuration file. Start by reading the [introductory tutorial], then check the
         <p class="card-text">
             MkDocs builds completely static HTML sites that you can host on
             GitHub Pages, Amazon S3, or <a
-            href="user-guide/deploying-your-docs/">anywhere</a> else you
+            href="wikis.html">anywhere</a> else you
             choose.
         </p>
         <a href="user-guide/" class="btn btn-primary" role="button">Entrar</a>
