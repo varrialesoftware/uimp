@@ -6,11 +6,7 @@ Sistema de documentação com informações, relatórios e business intelligence
 
 <!--
 ## O que é o SEEC.Net?
-MkDocs is a **fast**, **simple** and **downright gorgeous** static site
-generator that's geared towards building project documentation. Documentation
-source files are written in Markdown, and configured with a single YAML
-configuration file. Start by reading the [introductory tutorial], then check the
-[User Guide] for more information.
+Lorem ipsum...
 -->
 
 <div class="pt-2 pb-4 px-4 my-4 bg-body-tertiary rounded-3">
